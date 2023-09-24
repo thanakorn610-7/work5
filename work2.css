@@ -1,0 +1,52 @@
+h3,p {
+    color: blueviolet;
+}
+
+.bg {
+    background-color: blue;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    padding-left: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 999px) and (min-width: 780px) {
+
+    h3,p {
+        color: orangered;
+    }
+
+    .bg{
+        background-color: magenta;
+        height: 100px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 699px) {
+
+    h3,p {
+        color: blue;
+    }
+
+    .bg{
+        background-color: green;
+        height: 100px;
+    }
+
+    h1 {
+        color: yellow;
+        font-size: 20px;
+    }
+
+}

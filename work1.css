@@ -1,0 +1,25 @@
+body {
+    background-color: green;
+}
+
+h1, p {
+    color: yellow;
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+        background-color: blue;
+    }
+    h1, p {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+    h1, p {
+        color: white;
+    }
+}
